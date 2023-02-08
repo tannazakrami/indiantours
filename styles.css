@@ -1,0 +1,243 @@
+body, h1{
+    margin: 0;
+}
+
+html{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+}
+
+.main_general{
+    width: 100vw;
+    height: 100vh;
+    background: url("./assets/main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 227px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 54px;
+    font-size: 1.125rem;
+}
+
+.nav_block{
+    display: flex;
+    gap:40px;
+}
+
+.main_title{
+    font-weight: 500;
+    color: #FFFFFF;
+    width: 576px;
+    font-size: 3.75rem;
+    text-align: center;
+}
+
+.main_tagline{
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.main_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 63px;
+}
+
+.main_container_information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_button_start{
+    width: 12.5vw;
+    height: 7.112vh;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FFA737;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.discover_image{
+    width: 34.723vw;
+    height: 66.668vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.additional_information{
+    display: flex;
+    gap: 104px;
+    justify-content: center;
+    margin-top: 87px;
+    margin-bottom: 123px;
+}
+
+.additional_title{
+    font-weight: 500;
+    font-size: 3.125rem !important;
+    color: #000000;
+}
+
+.additional_container{
+    width: 34.445vw;
+}
+
+.additional_description{
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.view_image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.booking_image{
+    width: 24.306vw;
+    height: 44.445vh;
+    object-fit: cover;
+}
+
+.booking_container{
+    display: flex;
+}
+
+.booking_text{
+    position: absolute;
+    padding-top: 200px;
+    width: 5vw;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.booking_content{
+    display: flex;
+    gap: 37px;
+    justify-content: center;
+}
+
+.amazingplaces_image{
+    width: 9.52vw;
+    height: 17.1vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.amazingplaces_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.amazingplaces_content{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.amazingplaces_cart{
+    width: 9.52vw;
+}
+
+.amazingplaces_price{
+    font-weight: bold;
+}
+
+.subscribe_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.subscribe_title{
+    margin: 0;
+    width: 55.348vw;
+    font-size: 50px;
+    text-align: center;
+}
+
+.subscribe_description{
+    color:rgba(0, 0, 0, 0.67);
+    text-align: center;
+    width: 39.167vw;
+    font-size: 18px;
+}
+
+.subscribe_input{
+    width: 22.431vw;
+    height: 7.112vh;
+    border: 0;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    text-indent: 10px;
+    font-size: 14px;
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    font-style: normal;
+}
+
+.subscribe_button{
+    width: 12.5vw;
+    height: 7.112vh;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FFA737;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+}
+
+.subscribe_form{
+    margin-top: 28px;
+}
+
+.footer_container{
+    width: 100vw;
+    height: 31.112vh;
+    background-color: #FFA737;
+}
+
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    gap:71px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 206px;
+}
+
+.quick_links, .company{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #FFFFFF;
+}
+
+.slick-slide{
+    height: auto !important;
+}
+
+.booking_container:hover{
+    transform: scale(1.2);
+}
